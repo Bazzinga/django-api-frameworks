@@ -113,6 +113,9 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
 
+    'django_extensions',
+
+    'generator',
     'tasty',
 )
 
@@ -144,3 +147,5 @@ LOGGING = {
         },
     }
 }
+
+#TASTYPIE_DATETIME_FORMATTING = 'rfc-2822'

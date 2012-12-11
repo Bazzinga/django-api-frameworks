@@ -1,0 +1,10 @@
+django
+python-mimeparse
+python-dateutil
+django-tastypie
+
+# debug
+django-extensions
+
+# testing
+factory_boy
