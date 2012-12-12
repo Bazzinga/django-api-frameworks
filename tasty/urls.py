@@ -11,7 +11,6 @@ v1_api.register(UserResource())
 v1_api.register(LogUserResource())
 v1_api.register(UserLogsResource())
 v1_api.register(UserGroupResource())
-#v1_api.register(AwesomeResource())
 
 urlpatterns = patterns('',
     url(r'^api/', include(v1_api.urls)),

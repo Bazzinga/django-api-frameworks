@@ -51,24 +51,3 @@ class UserGroupResource(ModelResource):
     groups = fields.ToManyField(GroupResource, 'groups', full=True)
     class Meta:
         queryset = User.objects.all()
-
-#class AwesomeResource(Resource):
-#    text = fields.CharField(attribute='txt')
-#
-#    class Meta:
-#        resource_name = 'awesome'
-#
-#    def detail_uri_kwargs(self, bundle_or_obj):
-#        print 'detail_uri_kwargs'
-#        return {
-#            'pk': 100,
-#        }
-#
-#    def get_object_list(self, request):
-#        print request
-#        return [
-#            {'a': 1, 'txt': 50}
-#        ]
-#
-#    def obj_get_list(self, request=None, **kwargs):
-#        return self.get_object_list(request)

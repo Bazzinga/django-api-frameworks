@@ -117,6 +117,7 @@ INSTALLED_APPS = (
 
     'generator',
     'tasty',
+    'rest_framework',
 )
 
 # A sample logging configuration. The only tangible logging
